@@ -1,0 +1,614 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bg-main.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  outline: 0;
+}
+img {
+  border: 0;
+}
+div#page {
+  width: 100%;
+}
+div#page div#header {
+  width: 940px;
+  margin: 0 auto;
+}
+div#page div#header ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: url("../images/bg-navigation.png") no-repeat scroll center center transparent;
+  width: 940px;
+  height: 65px;
+}
+div#page div#header ul.navigation h1 {
+  margin: auto;
+  width: 45%;
+  padding-top: 20px;
+  color: white;
+  text-shadow: 0.5px 0.5px black;
+}
+div#page div#header ul.navigation li {
+  float: left;
+  height: 65px;
+  width: 188px;
+  background: url("../images/bg-border-menu.png") no-repeat scroll left 20px transparent;
+}
+div#page div#header ul.navigation li:first-child {
+  background: none;
+}
+div#page div#header ul.navigation li a {
+  display: block;
+  height: 65px;
+  font-size: 18px;
+  color: whitesmoke;
+  text-decoration: none;
+  width: 188px;
+  text-align: center;
+  line-height: 75px;
+  text-shadow: 0.5px 0.5px black;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#header ul.navigation li a:hover {
+  display: block;
+  height: 65px;
+  font-size: 18px;
+  color: crimson;
+  text-decoration: none;
+  width: 188px;
+  text-align: center;
+  line-height: 75px;
+  text-shadow: 1px 1px black;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#header ul.navigation li a.active {
+  display: block;
+  height: 65px;
+  font-size: 18px;
+  color: crimson;
+  width: 188px;
+  text-align: center;
+  line-height: 75px;
+  text-shadow: 0px 0px black;
+}
+div#page div#body {
+  width: 940px;
+  margin: 0 auto;
+}
+div#page div#body div.featured {
+  width: 920px;
+  margin: 0 auto;
+  height: 236px;
+  overflow: hidden;
+  position: relative;
+}
+div#page div#body div.featured img {
+  opacity: 1;
+}
+div#page div#body div#content {
+  width: 920px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #ded8d4;
+  background: url("../images/bg-content.jpg") repeat-y scroll center top;
+}
+
+div#page div#body div#content div.content {
+  width: 630px;
+  float: left;
+  padding: 10px 30px 0 30px;
+}
+div#page div#body div.login
+{
+  background-color: lightgrey;
+  border-radius: 30px;
+  padding: 10px;
+  padding-bottom:15px;
+
+}
+div#page div#body div.login form {}
+div#page div#body div.login form .row {
+  display: block;
+  padding: 7px 8px;
+  margin-bottom: 7px;
+}
+div#page div#body div.login form .row:hover {
+  background: darkgrey;
+}
+div#page div#body div.login form label {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  color: black;
+  vertical-align: top;
+}
+div#page div#body div#content div.content form {}
+div#page div#body div#content div.content form .row {
+  display: block;
+  padding: 7px 8px;
+  margin-bottom: 7px;
+}
+div#page div#body div#content div.content form .row:hover {
+  background: darkgrey;
+}
+div#page div#body div#content div.content form label {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  color: black;
+  vertical-align: top;
+}
+div#page div#body div#content div.content ul.articles {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: url("../images/bg-long-border-home.png") no-repeat scroll center top transparent;
+}
+div#page div#body div#content div.content ul.articles p.entry a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles p.entry a:hover {
+  color: crimson;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li:first-child {
+  padding: 10px 0 0 0;
+}
+div#page div#body div#content div.content ul.articles li {
+  background: url("../images/bg-long-border-home.png") no-repeat scroll center bottom transparent;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 650px;
+}
+div#page div#body div#content div.content ul.articles li h2 {
+  height: 55px;
+  display: block;
+  position: relative;
+  font-weight: normal;
+  text-align: left;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: darkgrey;
+  background: url("../images/filmicon.png") no-repeat scroll 0 transparent;
+  margin: 0 0 20px 0;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+div#page div#body div#content div.content ul.articles li h2.member {
+  height: 55px;
+  display: block;
+  position: relative;
+  font-weight: normal;
+  text-align: left;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: darkgrey;
+  background: url("../images/usericon.png") no-repeat scroll 0 transparent;
+  margin: 0 0 20px 0;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+div#page div#body div#content div.content ul.articles li h2.member a {
+  font-size: 28px;
+}
+div#page div#body div#content div.content ul.articles li h2 a {
+  height: 55px;
+  display: block;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  float: left;
+  line-height: 55px;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li h2 a:hover {
+  color: crimson;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li h2 span {
+  height: 55px;
+  position: relative;
+  text-align: right;
+  float: right;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  line-height: 50px;
+  padding: 0 10px 0 0;
+}
+div#page div#body div#content div.content ul.articles li table {
+  width: 640px;
+}
+div#page div#body div#content div.content ul.articles li table tr td.profilepic {
+  width: 30%;
+}
+div#page div#body div#content div.content ul.articles li table tr td.info {
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+}
+div#page div#body div#content div.content ul.articles li table tr td img.preimg {
+  width: 630px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkgrey;
+  border-bottom: none;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  transition: border-color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li img.preimg {
+  width: 240px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: darkgrey;
+  transition: border-color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li table tr td img.profilepic {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkgrey;
+  transition: border-color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li table tr td img.profilepic:hover {
+  border-color: crimson;
+  transition: border-color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li table tr td img.preimg:hover {
+  transition: border-color 0.2s ease-in-out 0s;
+  border-color: crimson;
+}
+div#page div#body div#content div.content ul.articles li table tr td img {
+  float: left;
+  margin: 0 0 0 0;
+}
+
+div#page div#body div#content div.content ul.articles li table tr td.caption {
+  background-color: White;
+  padding: 5px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: darkgrey;
+  border-top: none;
+  transition: border-color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li table tr td.caption:hover {
+  transition: border-color 0.2s ease-in-out 0s;
+  border-color: crimson;
+}
+div#page div#body div#content div.content ul.articles li table tr td.caption p {
+  font-size: 16px;
+  color: black;
+  margin: 24px;
+  text-align: justify;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+}
+div#page div#body div#content div.content ul.articles li table tr td.caption p a{
+  font-size: 20px;
+  color: dodgerblue;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li table tr td.caption p a:hover{
+  color: crimson;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li p.tags {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 2px;
+  font-size: 16px;
+}
+div#page div#body div#content div.content ul.articles li p.tags a.tags {
+  text-decoration: none;
+  color: white;
+}
+
+div#page div#body div#content div.content ul.articles li p.tags span.tags {
+  background-color: darkgrey;
+  border-style:solid;
+  border-width:3px;
+  border-style: hidden;
+  border-radius: 4px;
+  padding: 3px;
+  line-height: 170%;
+  transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+}
+
+div#page div#body div#content div.content ul.articles li p.tags span.tags:hover {
+  background-color: crimson;
+}
+
+div#page div#body div#content div.content ul.articles li table tr td.caption p span.mems {
+  font-size: 20px;
+  color: white;
+  background-color: Dodgerblue;
+  border-style:hidden;
+  border-width:2px;
+  padding: 3px;
+  border-radius: 7px;
+  margin: 2px;
+  transition: background-color 0.2s ease-in-out 0s;
+  display:inline-block;
+}
+
+div#page div#body div#content div.content ul.articles li table tr td.caption p span.mems a{
+  text-decoration: none;
+  color: white;
+}
+
+div#page div#body div#content div.content ul.articles li table tr td.caption p span.mems:hover {
+  transition: background-color 0.2s ease-in-out 0s;
+}
+
+div#page div#body div#content div.content ul.articles li table tr td.caption p.mems{
+  font-size: 20px;
+  color: dodgerblue;
+  margin-top:0px;
+    float: right;
+}
+
+
+div#page div#body div#content div.content ul.articles li table tr td.caption p span:hover {
+  background-color: crimson;
+  border-color: crimson;
+  transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+}
+
+div#page div#body div#content div.content ul.articles li p.episode {
+  font-size: 20px;
+  height: 25px;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding: 0;
+  position: relative;
+}
+div#page div#body div#content div.content ul.articles li p.episode span.epnum {
+  background: none;
+  float: left;
+  height: 25px;
+  padding: 0 7px;
+  margin-bottom: 10px;
+}
+div#page div#body div#content div.content ul.articles li p.episode span.epnum a {
+  background-color: none;
+  padding-left:4px;
+  padding-right:4px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li p.episode span.epnum a:hover {
+  background-color: crimson;
+  padding-left:4px;
+  padding-right:4px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li p.episode span.epnum a.active {
+  background-color: dodgerblue;
+  padding-left:4px;
+  padding-right:4px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.articles li p a:hover {}
+div#page div#body div#content div.content ul.paging {
+  font-size: 20px;
+  height: 25px;
+  list-style-type: none;
+  margin: 30px 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 640px;
+  float:left;
+}
+div#page div#body div#content div.content ul.paging li.first {
+  float: left;
+  height: 25px;
+  padding: 0 10px 0 5px;
+  width: auto;
+}
+div#page div#body div#content div.content ul.paging li.first a {
+  color: grey;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.paging li.first a:hover {
+  color: crimson;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.paging li {
+  float: left;
+  height: 25px;
+  padding: 0 7px;
+  width: auto;
+}
+div#page div#body div#content div.content ul.paging li a {
+  color: grey;
+  text-decoration: none;
+}
+div#page div#body div#content div.content ul.paging li a:hover {
+  color: black;
+  text-decoration: none;
+}
+div#page div#body div#content div.content ul.paging li ul {
+  height: 25px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+div#page div#body div#content div.content ul.paging li ul li {
+  float: left;
+  width: auto;
+}
+div#page div#body div#content div.content ul.paging li a.active {
+  color: black;
+  text-decoration: none;
+}
+div#page div#body div#content div.content ul.paging li.last {
+  float: right;
+  height: 25px;
+  padding: 0 5px 0 10px;
+  width: auto;
+}
+div#page div#body div#content div.content ul.paging li.last a {
+  color: grey;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content ul.paging li.last a:hover {
+  color: crimson;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#body div#content div.content p a.sename {
+  color: black;
+  text-decoration: none;
+}
+div#page div#body div#content div.content p a.sename:hover {
+  color: crimson;
+}
+div#page div#body div#content div#sidebar {
+  width: 210px;
+  float: left;
+  padding: 0 10px;
+}
+div#page div#body div#content div#sidebar div.break {
+  background: url("../images/bg-sidebar-border.png") no-repeat scroll center top transparent;
+  height: 10px;
+}
+div#page div#body div#content div#sidebar h1 {
+  color: #270f03;
+  font-size: 20px;
+  text-align: center;
+  background: url("../images/bg-sidebar-border.png") no-repeat scroll center top transparent;
+  height: 65px;
+  line-height: 65px;
+  margin: 10px 0;
+}
+div#page div#body div#content div#sidebar h1 span {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  background: url("../images/bg-sidebar-border.png") no-repeat scroll center bottom transparent;
+  height: 65px;
+  line-height: 65px;
+  display: block;
+}
+#search input {
+  background: none repeat scroll 0 0 #fff;
+  border: 0 none;
+  color: #7F7F7F;
+  float: left;
+  height: 18px;
+  margin: 0;
+  padding: 10px;
+  transition: background 0.2s ease-in-out 0s;
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+	border-bottom: solid 2px #fff;
+}
+#search input:focus {
+  outline: none;
+	border-bottom: solid 2px crimson;
+}
+#search button {
+  background: url("../images/search.png") no-repeat scroll center center crimson;
+  cursor: pointer;
+  height: 40px;
+  text-indent: -99999em;
+  width: 40px;
+  border: 2px solid #fff;
+  margin-top: 15px;
+  margin-bottom: 10px;
+	transition: border 0.2s ease-in-out 0s;
+}
+#search button:hover {
+	border-color: crimson;
+	transition: border 0.2s ease-in-out 0s;
+}
+div#page div#footer {
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #1F2425;
+  font-size: 16px;
+  width: 940px;
+  height: 60px;
+  margin: 0 auto;
+}
+div#page div#footer span {
+  display: block;
+  line-height: 60px;
+  color: crimson;
+  text-align: center;
+}
+div#page div#footer span a {
+  color: crimson;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+div#page div#footer span a:hover {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+ul#menu {
+  padding: 0;
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+}
+ul#menu li {
+  display: inline;
+}
+ul#menu li a {
+  background-color: crimson;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+ul#menu li a:hover {
+  background-color: black;
+}
