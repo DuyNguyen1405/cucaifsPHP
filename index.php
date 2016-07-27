@@ -25,7 +25,7 @@
         <img class="logo" src="images/logo.png" alt="">
       </a>
       <ul class="navigation">
-        <li> <a href="index.php" class="active">Mới Cập Nhật</a> </li>
+        <li> <a href="index.php" class="active">Beta</a> </li>
         <li> <a href="ongoing.php">Đang Dịch</a> </li>
         <li> <a href="complete.php">Đã Hoàn Thành</a> </li>
         <li> <a href="list.php">List Phim</a> </li>
